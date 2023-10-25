@@ -1,63 +1,63 @@
 # Shiny-web-application-for-analyzing-genotyping-results
 This web application was created to analyze genotyping of cryptic amphipod species of the Baikal region using two marker genes 18S and COI. However, the code used in this application can be applied not only to Baikal amphipods, but also to all other species of living organisms. The application was written in R language using the shiny package. The blast code was written based on https://github.com/ScientistJake/Shiny_BLAST.
 # Required packages:
-library(DT) 
+library(**DT**) Version: **0.29**
 
-library(thematic)
+library(**thematic**) Version: **0.1.3**
 
-library(bslib)
+library(**bslib**) Version: **0.5.1**
 
-library(XML)
+library(**XML**) Version: **3.99-0.14**
 
-library(plyr)
+library(**plyr**) Version: **1.8.8**
 
-library(dplyr)
+library(**dplyr**) Version: **2.3.4**
 
-library(rBLAST)
+library(**rBLAST**) Version: **0.99.2**
 
-library(ggplot2)
+library(**ggplot2**) Version: **3.4.3**
 
-library(tidyr)
+library(**tidyr**) Version: **1.3.0**
 
-library(xlsx)
+library(**xlsx**) Version: **0.6.5**
 
-library(shinyalert)
+library(**shinyalert**) Version: **3.0.0**
 
-library(Biostrings)
+library(**Biostrings**) Version: **2.68.1**
 
-library(shinycssloaders)
+library(**shinycssloaders**) Version: **1.0.0**
 
-library(ggtext)
+library(**ggtext**) Version: **0.1.2**
 
-library(glue)
+library(**glue**) Version: **1.6.2**
 
-library(rclipboard)
+library(**rclipboard**) Version: **0.2.0**
 
-library(BiocManager)
+library(**BiocManager**) Version: **1.30.22**
 
-library(shinyBS)
+library(**shinyBS**) Version: **0.61.1**
 
-library(shinyjs)
+library(**shinyjs**) Version: **2.1.0**
 
-library(stringr)
+library(**stringr**) Version: **1.5.0**
 
-library(seqinr)
+library(**seqinr**) Version: **4.2-30**
 
-library(forcats)
+library(**forcats**) Version: **1.0.0**
 
-library(purrr)
+library(**purrr**) Version: **1.0.2**
 
-library(lubridate)
+library(**lubridate**) Version: **1.9.2**
 
-library(readr)
+library(**readr**) Version: **2.1.4**
 
-library(tibble)
+library(**tibble**) Version: **3.2.1**
 
-library(sf)
+library(**sf**) Version: **1.0-14**
 
-library(mapview)
+library(**mapview**) Version: **2.11.2**
 
-library(leaflet)
+library(**leaflet**) Version: **2.2.0**
 
 # Customizing Specoident:
 
