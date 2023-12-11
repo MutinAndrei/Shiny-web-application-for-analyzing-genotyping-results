@@ -71,4 +71,4 @@ Change the search pattern in the conditions that produce popups in lines 286 thr
 
 Also, this application is located on our server:
 
-http://bioinformatics.isu.ru:3838/SPecoident/ 
+http://bioinformatics.isu.ru:3838/speCOIdent/ 
