@@ -85,7 +85,7 @@ ui <- fluidPage(useShinyjs(),
                     id = "app-content",
                   )
                 ),
-  theme = bs_theme(bg = "#0b3d91", fg = "white", primary = "#FCC780",
+  theme = bs_theme(bg = "#0b3d91", fg = "white", primary = "#FCC780", secondary="#AAAAAA",
                                  base_font = font_google("Space Mono"),
                                  code_font = font_google("Space Mono")),
                 tagList(
@@ -127,7 +127,7 @@ ui <- fluidPage(useShinyjs(),
                              br(),
                              actionButton("blast", "IDENTIFY!"),
                              downloadButton(outputId = "download_filtered",
-                                             label = "Download Data Base")),
+                                             label = "Download database")),
   
                               mainPanel(width = 8,
                                         h5("Species distribution map:"),
