@@ -1,4 +1,5 @@
 # needed packages
+library(shiny)
 library(DT)
 library(thematic)
 library(bslib)
